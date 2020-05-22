@@ -9,7 +9,7 @@ In this project, we’ll build a classifier to train on 80% of a breast cancer h
 ## Dataset and Data Setup
 Download Breast Cancer Histology Image Dataset from [kaggle](https://www.kaggle.com/paultimothymooney/breast-histopathology-images/source). 
 
-To set up idc datasets in PyTorch open **config.py**. 
+To set up idc datasets in PyTorch open `config.ipynb`. 
 
 After we copy the downloaded dataset to the datasets/origianl folder, we declare the path for the new directory (datasets/idc), and the paths for the training, validation, and testing directories using the base path. 
 We also declare that 80% of the entire dataset will be used for training, and of that, 10% will be used for validation.
@@ -19,13 +19,13 @@ Next, we’ll import from config, imutils, random, shutil, and os. Then we will 
 Then, we calculate an `index` by multiplying the length of this list by 0.8 so we can slice this list to get sublists for the training and testing datasets. Next, we further calculate an index saving 10% of the list for the training dataset for validation (`valPaths`) and keeping the rest for training itself (`trainPaths`). Then, we defines a list with tuples called `datasets`. 
 
 ## Build BreastCancerNet CNN Model
-`BreastCancerNet.py`
+`BreastCancerNet.ipynb`
 
 ## Train Model
-`BCN_train.py`
+`BCN_train.ipynb`
 
 ## Test Model
-`BCN_test.py`
+`BCN_test.ipynb`
 
 ## Citations
 [1] American Cancer Society. Cancer Facts & Figures 2020. Available at: https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2020/cancer-facts-and-figures-2020.pdf.  
