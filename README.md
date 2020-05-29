@@ -16,6 +16,8 @@ Then, we calculate an *index* by multiplying the length of this list by 0.8 so w
 
 `loaders.py` - Transform the data to torch tensors and normalize it and prepare training loader and testing loader (makes datasets iterable).
 
+`Descriptive Statistics and EDA.ipynb`- basic descriptive statististics and visualization. 
+
 ## Build BreastCancerNet CNN Model
 `BreastCancerNet.py`
 
