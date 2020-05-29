@@ -3,6 +3,7 @@ In this project, we’ll build a classifier to train on 80% of a breast cancer h
 
 
 ## Requirements
+`requirements.txt`
 + torch
 + torchvision
 
